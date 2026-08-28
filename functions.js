@@ -11,17 +11,37 @@
     // console.log((price - discount) * 1.19);
 
 // Funktion
-    //Keyword   Funktionsname   Parameterbereich    Funktionskörper
-    //function  myName          ()                  { }
+    // Grundaufbau
+        //Keyword   Funktionsname   Parameterbereich    Funktionskörper
+        //function  myName          ()                  { }
 
-    function logCalcPrice() {
-        console.log((price - discount) * 1.19);
-    }
+        // Funktionsdefinition
+        function logCalcPrice() {
+            console.log((price - discount) * 1.19);
+        }
 
-    // logCalcPrice();
+        // Funktionscall
+        // logCalcPrice();
 
-    price = 300;
+        price = 300;
 
-    // logCalcPrice();
+        // logCalcPrice();
 
-    
+    // Parameter
+        // Parameter sind wie Variablen, aber nur für die Funktion
+        // Außerhalb der Funktion sind Parameter nicht definiert
+
+        function logCalcPricePara(ParaDiscount, ParaPrice) {
+            console.log((ParaPrice - ParaDiscount) * 1.19);
+        }
+
+        // Im Funktionscall werden die Parameter definiert
+        // logCalcPricePara(30, 725);
+
+        // logCalcPricePara(12, 424);
+
+    // Return
+        // Mit return wird am Ende einer Funktion etwas ausgegeben
+        // Ohne return wird nur die Funktion ohne Ausgabe ausgeführt, also undefined
+
+        
