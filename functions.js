@@ -43,5 +43,18 @@
     // Return
         // Mit return wird am Ende einer Funktion etwas ausgegeben
         // Ohne return wird nur die Funktion ohne Ausgabe ausgeführt, also undefined
+        // return ist auch ohne Parameterdefinition möglich
+        // return beendet die Funktion, was danach steht wird nicht mehr ausgeführt
 
+        function logCalcPriceReturn(RetDiscount, RetPrice) {
+            let value = (RetPrice - RetDiscount) * 1.19;
+            return value;
+        }
+
+        // Die Ausgabe kann z. B. einer neuen Variable hinzugefügt werden
+        let myReturn = logCalcPriceReturn(2, 10);
+        // console.log(myReturn);
+
+        // Die Ausgabe kann aber auch z. B. direkt ausgegeben werden
+        // console.log(logCalcPriceReturn(42, 420));
         
