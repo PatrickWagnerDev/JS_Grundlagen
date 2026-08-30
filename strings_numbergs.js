@@ -30,3 +30,22 @@
 
 // W3Schools Doku dazu, besonders Interessant die Escape Characters
 // https://www.w3schools.com/js/js_strings.asp
+
+// Strings sind auch Objecte
+
+    let myTestString = "hallo  ";
+
+    // Man kann auch Strings Funktionen geben durch einen .
+
+    // console.log(myTestString.length);   // -> 7 (es werden bei length alle Zeichen mitgezählt auch die Leerzeichen)
+    
+    // Man kann auch anders Funktionen an Strings knüpfen
+    // z. B. trim() kürzt bei einem String automatisch vorne und hinten die Leerzeichen weg
+
+    myTestString = myTestString.trim();
+
+    // console.log(myTestString.length);   // -> 5 (die Leerzeichen wurden durch trim() entfernt)
+
+// W3Schools Doku zu length und trim()
+// length: https://www.w3schools.com/jsref/jsref_length_string.asp
+// trim(): https://www.w3schools.com/jsref/jsref_trim_string.asp
