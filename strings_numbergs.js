@@ -49,3 +49,4 @@
 // W3Schools Doku zu length und trim()
 // length: https://www.w3schools.com/jsref/jsref_length_string.asp
 // trim(): https://www.w3schools.com/jsref/jsref_trim_string.asp
+// String Reference: https://www.w3schools.com/jsref/jsref_obj_string.asp
