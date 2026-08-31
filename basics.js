@@ -6,11 +6,11 @@
 
     let letVariable = 27;
 
-    // console.log(letVariable);
+    console.log(letVariable);
 
     meineVariable = 32;
 
-    // console.log(letVariable);
+    console.log(letVariable);
 
     // const
         // const "Variablenname" = "Variable";
@@ -18,7 +18,7 @@
 
     const constVariable = 12;
 
-    // console.log(constVariable);
+    console.log(constVariable);
 
 // Datentypen
 

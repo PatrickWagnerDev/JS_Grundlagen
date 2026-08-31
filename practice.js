@@ -9,7 +9,7 @@
             return myName;
         }
 
-        // console.log(fullName("Patrick", "Wagner"));
+        console.log(fullName("Patrick", "Wagner"));
 
     // 02 Aufgabe
     // Erstelle eine Funktion namens "capitalizeLetters", die einen String als Parameter übernimmt,
@@ -21,7 +21,7 @@
             return letBig;
         }
 
-        // console.log(capitalizeLetters("BanAnE"));
+        console.log(capitalizeLetters("BanAnE"));
         
     // 03 Aufgabe
     // Erstelle eine Funktion namens "countCharacters", die einen String als Parameter übernimmt
@@ -33,7 +33,7 @@
             return number;
         }
 
-        // console.log(countCharacters("banane"));
+        console.log(countCharacters("banane"));
         
     // Knacker-Aufgabe
     // Erstelle eine Funktion namens "formatToCurrency", die eine Dezimalzahl als Parameter übernimmt
@@ -47,14 +47,14 @@
             return finalCurrency;
         }
 
-        // console.log(formatToCurrency(7.3548));
+        console.log(formatToCurrency(7.3548));
 
 // Aufgaben DOM-Manipulation
     // Aufgabe 1
     // Erstelle mit Hilfe von JavaScript einen Button innerhalb einer div.
     // Tipp: Im besten Fall bekommt der Button hier schon eine id.
 
-    
+
 
     // Aufgabe 2
     // Füge diesem Button wieder mit Hilfe von JavaScript den Text hinzu "Klick mich"

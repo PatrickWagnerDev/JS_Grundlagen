@@ -5,7 +5,7 @@
 
     myCondition = true;
 
-    // console.log(myCondition);
+    console.log(myCondition);
 
 // Operators
     // Not-Operator "!"
@@ -14,7 +14,7 @@
 
         myConNot = !false;
 
-        // console.log(myConNot);
+        console.log(myConNot);
 
     // Or-Operator "||"
 
@@ -22,7 +22,7 @@
 
         myConOr = false || false;
 
-        // console.log(myConOr);
+        console.log(myConOr);
 
     // And-Operator "&&"
 
@@ -30,29 +30,29 @@
 
         myConAnd = true && true;
         
-        // console.log(myConAnd);
+        console.log(myConAnd);
 
     // Übung zu Not-Or-And
 
-        // console.log(true && false);     // false
+        console.log(true && false);     // false
 
-        // console.log(true || false);     // true
+        console.log(true || false);     // true
 
-        // console.log(false && true);     // false
+        console.log(false && true);     // false
 
-        // console.log(true && (false || true));       // true
+        console.log(true && (false || true));       // true
 
-        // console.log((true && false) || true);       // true
+        console.log((true && false) || true);       // true
 
-        // console.log(!(true && false));      // true
+        console.log(!(true && false));      // true
 
-        // console.log(!(false || true));      // false
+        console.log(!(false || true));      // false
 
-        // console.log(!(true && (false || true)));        // false
+        console.log(!(true && (false || true)));        // false
 
-        // console.log((true && !(false || true)) || (false && (true || false)));      // false
+        console.log((true && !(false || true)) || (false && (true || false)));      // false
 
-        // console.log((true || !(false && true)) && (!(true || false) || (false && true)));       // false
+        console.log((true || !(false && true)) && (!(true || false) || (false && true)));       // false
 
     // LoseEquality-Operator "=="
 
@@ -62,7 +62,7 @@
 
         myConLE =       45 == "45";       // -> true
 
-        // console.log(myConLE);
+        console.log(myConLE);
 
     // StrictEquality-Operator "==="
 
@@ -72,7 +72,7 @@
 
         myConSE =      45 === "45";       // -> false
 
-        // console.log(myConSE);
+        console.log(myConSE);
 
     // NotLoseEquality-Operator "!="
 
@@ -82,7 +82,7 @@
 
         myConNLE =       45 != "47";       // -> true
 
-        // console.log(myConNLE);
+        console.log(myConNLE);
 
     // NotStrictEquality-Operator "!=="
 
@@ -92,7 +92,7 @@
 
         myConNSE =      45 !== "47";       // -> true
 
-        // console.log(myConNSE);
+        console.log(myConNSE);
 
     // Größer-/Kleiner-Operator "<", ">", "<=" und ">="
 
@@ -104,32 +104,32 @@
 
         let myConSmGl =   34 <= 12;       // Kleiner-Gleich Abfrage -> false
 
-        // console.log(myConGr);
-        // console.log(myConSm);
-        // console.log(myConGrGl);
-        // console.log(myConSmGl);
+        console.log(myConGr);
+        console.log(myConSm);
+        console.log(myConGrGl);
+        console.log(myConSmGl);
 
     // Übung zu Lose-/Strikt-Equality und Bigger/Smaller
 
-        // console.log(5 <= 10);       // true
+        console.log(5 <= 10);       // true
 
-        // console.log(15 == 15);      // true
+        console.log(15 == 15);      // true
 
-        // console.log(20 > 10);       // true
+        console.log(20 > 10);       // true
 
-        // console.log((7 <= 7) == (5 < 10));      // true
+        console.log((7 <= 7) == (5 < 10));      // true
 
-        // console.log((10 > 5) == (3 < 2));       // false
+        console.log((10 > 5) == (3 < 2));       // false
 
-        // console.log((12 >= 8) && (8 < 9));      // true
+        console.log((12 >= 8) && (8 < 9));      // true
 
-        // console.log((3 == 3) || (10 > 20));     // true
+        console.log((3 == 3) || (10 > 20));     // true
 
-        // console.log((6 != 6) || (15 <= 20));    // true
+        console.log((6 != 6) || (15 <= 20));    // true
 
-        // console.log((7 < 5) == !(10 >= 10));    // true
+        console.log((7 < 5) == !(10 >= 10));    // true
 
-        // console.log((4 >= 4) && (8 < 15) && (3 == 3));      // true
+        console.log((4 >= 4) && (8 < 15) && (3 == 3));      // true
 
 //"if", "else" und "else if"
 
@@ -137,85 +137,85 @@
     let myIfConTwo = true;
 
     if(myIfCon){                                
-        // console.log("Hello World! if Teil");        // Wird ausgeführt wenn "myIfCon" ist true
+        console.log("Hello World! if Teil");        // Wird ausgeführt wenn "myIfCon" ist true
     } else {
-        // console.log("Hello World! else Teil");      // Wird ausgeführt wenn "myIfCon" ist false
+        console.log("Hello World! else Teil");      // Wird ausgeführt wenn "myIfCon" ist false
     }
 
     if(myIfCon){
-        // console.log("Hello World! if Teil");        // Wird ausgeführt wenn "myIfCon" ist true
+        console.log("Hello World! if Teil");        // Wird ausgeführt wenn "myIfCon" ist true
     } else if(myIfConTwo){
-        // console.log("Hello World! else-if Teil");   // Wird ausgeführt wenn "myIfCon" ist false und "myIfConTwo" ist true
+        console.log("Hello World! else-if Teil");   // Wird ausgeführt wenn "myIfCon" ist false und "myIfConTwo" ist true
     } else {
-        // console.log("Hello World! else Teil");      // Wird ausgeführt wenn alles false
+        console.log("Hello World! else Teil");      // Wird ausgeführt wenn alles false
     }
 
     if(!myIfCon){
-        // console.log("Hello World! if Teil");        // Wird ausgeführt wenn "myIfCon" ist false wegen Not-Operator "!"
+        console.log("Hello World! if Teil");        // Wird ausgeführt wenn "myIfCon" ist false wegen Not-Operator "!"
     } else {
-        // console.log("Hello World! else Teil");      // Wird ausgeführt wenn "myIfCon" ist true
+        console.log("Hello World! else Teil");      // Wird ausgeführt wenn "myIfCon" ist true
     }
 
     // Übung für if else
 
-        // if (5 <= 10) {
-        //     console.log("a");       // a
-        // }
+        if (5 <= 10) {
+            console.log("a");       // a
+        }
 
-        // if (15 == 15) {
-        //     console.log("b");       // b
-        // }
+        if (15 == 15) {
+            console.log("b");       // b
+        }
 
-        // if (20 > 10) {
-        //     console.log("c");       // c
-        // }
+        if (20 > 10) {
+            console.log("c");       // c
+        }
 
-        // if (7 <= 7) {
-        //     console.log("a");
-        // } else {                    // a
-        //     console.log("b");
-        // }
+        if (7 <= 7) {
+            console.log("a");
+        } else {                    // a
+            console.log("b");
+        }
 
-        // if (10 > 5) {
-        //     console.log("a");
-        // } else if (3 < 2) {
-        //     console.log("b");       // a
-        // } else {
-        //     console.log("c");
-        // }
+        if (10 > 5) {
+            console.log("a");
+        } else if (3 < 2) {
+            console.log("b");       // a
+        } else {
+            console.log("c");
+        }
 
-        // if (12 >= 8 && 8 < 9) {
-        //     console.log("a");
-        // } else {                    // a
-        //     console.log("b");
-        // }
+        if (12 >= 8 && 8 < 9) {
+            console.log("a");
+        } else {                    // a
+            console.log("b");
+        }
 
-        // if (3 == 3) {
-        //     console.log("a");
-        // } else if (10 > 20) {
-        //     console.log("b");       // a
-        // } else {
-        //     console.log("c");
-        // }
+        if (3 == 3) {
+            console.log("a");
+        } else if (10 > 20) {
+            console.log("b");       // a
+        } else {
+            console.log("c");
+        }
 
-        // if (6 != 6) {
-        //     console.log("a");
-        // } else if (15 <= 20) {
-        //     console.log("b");       // b
-        // } else {
-        //     console.log("c");
-        // }
+        if (6 != 6) {
+            console.log("a");
+        } else if (15 <= 20) {
+            console.log("b");       // b
+        } else {
+            console.log("c");
+        }
 
-        // if (7 < 5) {
-        //     console.log("a");
-        // } else if (!(10 >= 10)) {
-        //     console.log("b");       // c
-        // } else {
-        //     console.log("c");
-        // }
+        if (7 < 5) {
+            console.log("a");
+        } else if (!(10 >= 10)) {
+            console.log("b");       // c
+        } else {
+            console.log("c");
+        }
 
-        // if (4 >= 4 && 8 < 15 && 3 == 3) {
-        //     console.log("a");                   // a
-        // } else {
-        //     console.log("b");
-        // }
+        if (4 >= 4 && 8 < 15 && 3 == 3) {
+            console.log("a");                   // a
+        } else {
+            console.log("b");
+        }

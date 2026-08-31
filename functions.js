@@ -4,11 +4,11 @@
     let discount = 50;
     let price = 500;
 
-    // console.log((price - discount) * 1.19);
+    console.log((price - discount) * 1.19);
 
     price = 400;
 
-    // console.log((price - discount) * 1.19);
+    console.log((price - discount) * 1.19);
 
 // Funktion
     // Grundaufbau
@@ -21,11 +21,11 @@
         }
 
         // Funktionscall
-        // logCalcPrice();
+        logCalcPrice();
 
         price = 300;
 
-        // logCalcPrice();
+        logCalcPrice();
 
     // Parameter
         // Parameter sind wie Variablen, aber nur für die Funktion
@@ -36,9 +36,9 @@
         }
 
         // Im Funktionscall werden die Parameter definiert
-        // logCalcPricePara(30, 725);
+        logCalcPricePara(30, 725);
 
-        // logCalcPricePara(12, 424);
+        logCalcPricePara(12, 424);
 
     // Return
         // Mit return wird am Ende einer Funktion etwas ausgegeben
@@ -53,8 +53,8 @@
 
         // Die Ausgabe kann z. B. einer neuen Variable hinzugefügt werden
         let myReturn = logCalcPriceReturn(2, 10);
-        // console.log(myReturn);
+        console.log(myReturn);
 
         // Die Ausgabe kann aber auch z. B. direkt ausgegeben werden
-        // console.log(logCalcPriceReturn(42, 420));
+        console.log(logCalcPriceReturn(42, 420));
         
