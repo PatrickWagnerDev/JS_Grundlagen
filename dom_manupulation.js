@@ -43,3 +43,17 @@
     // toggle ist eine Mischung aus add und remove, wenn es drin ist nimmt es es raus sonst anders herum
 
         document.getElementById('test_div').classList.toggle('green_bg');
+
+    // mit .setAttribut kann jedes Attribut das einen HTML-Tag hat geändert werden
+
+        // Version 1
+        document.getElementById('test_input').setAttribute('value', 123);
+
+        // Version 2 (direkt ansprechen, selten empfohlen)
+        document.getElementById('test_input').value = 658485;
+
+    // es kann auch ein Attribut einfach ausgelesen werden
+
+        // Speziell bei einem Input-Feld wird so der Wert ausgelesen
+        console.log(document.getElementById('test_input').value);
+        
