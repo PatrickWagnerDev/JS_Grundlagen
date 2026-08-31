@@ -56,4 +56,12 @@
 
         // Speziell bei einem Input-Feld wird so der Wert ausgelesen
         console.log(document.getElementById('test_input').value);
+
+    // mit Funktionen Elemente im CSS ansprechen und vergeben ist auch möglich
+    // Es kann auch z.B. mit einem Button mit onClick eine Funktion im JS ausgeführt werden
+    
+        function dispNone(id) {
+            document.getElementById(id).classList.toggle('d_none');
+        }
+
         

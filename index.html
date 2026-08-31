@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Grundlagen</title>
 
+    <link rel="stylesheet" href="style.css">
+
     <script src="./basics.js"></script>  <!-- defer sagt, dass das Script parallel zum Body gelesen wird-->
     <script src="./strings_numbergs.js"></script>
     <script src="./conditional_code.js"></script>
@@ -29,6 +31,11 @@
     <div id="test_div"></div>
 
     <input id="test_input" type="number" value="5">
+
+    <p id="test_ptag">Ich bin das p tag</p>
+
+    <!-- Mit onclick kann wie hier auch eine Funktion aus JS (dom_manupulation.js) ausgeführt werden -->
+    <button onclick="dispNone('test_ptag')">bitte ausführen</button>
 
 </body>
 
