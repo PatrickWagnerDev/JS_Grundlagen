@@ -104,3 +104,21 @@
     // Hierbei sollte dein Entwicklergeist geweckt sein. Wenn du nicht sicher bist, 
     // wie oder ob etwas geht, dann probier es aus!
     // Genau das macht dich zum Entwickler!!
+
+// Aufgaben zu onkeyup/onkeydown
+    // Aufgabe 1
+    // Erstelle ein inputfeld mit einer selbst gewählten id
+
+        // done -> <input id="prac_input" type="text" value="Hallo Welt!">
+
+    // Aufgabe 2
+    // Erstelle eine Funktion, die den Value dieses inputfeldes aus loggt.
+
+        function pracInputLog(log) {
+            document.getElementById('prac_input').setAttribute('value', log);
+        }
+
+    // Aufgabe 3
+    // Vergleiche nun den log von onkeyup und onkeydown. Siehst du einen Unterschied?
+
+        // Ja bei onkeydown wird beim drücken reagiert und onkeyup erst beim loslassen
