@@ -22,7 +22,9 @@
     </style>
 
 </head>
-<body>
+
+<!-- mit onload kann direkt beim Laden was ausgeführt werden -->
+<body onload="console.log(12)">
 
     <h1 id="website_title">
         Der Titel der Website
@@ -30,7 +32,14 @@
 
     <div id="test_div"></div>
 
-    <input id="test_input" type="number" value="5">
+    <!-- bei onkeydown und bei onkeyup wird bei jedem Tastendruck getriggert, je nachdem ob up or down -->
+    <input id="test_input" type="number" value="5" onkeydown="console.log('onkeydown')">
+
+    <!-- wenn ich nur in das Feld rein gehe (ihm den Fokus gebe) wird es augeführt bei onfocus -->
+    <input type="text" onfocus="console.log(34588)">
+
+    <!-- bei onchange wird bei einer Änderung und heraus gehen der Inhaltes ausgeführt -->
+    <input type="checkbox" onchange="console.log('true')">
 
     <p id="test_ptag">Ich bin das p tag</p>
 
