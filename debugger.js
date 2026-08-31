@@ -1,29 +1,24 @@
 let count = 0;
 
 function init(){
-    debuggerOutput('A');
-    debuggerOutput('A');
     testOne();
-    debuggerOutput('A');
-    debuggerOutput('A');
+    debuggerOutput('init');
+    testOne();
+    testTwo('testTwo');
+    testOne();
 }
 
 function testOne(){
-    debuggerOutput('B');
-    debuggerOutput('B');
-    testTwo();
-    debuggerOutput('B');
-    debuggerOutput('B');
+    debuggerOutput('testOne');
 }
 
-function testTwo(){
-    debuggerOutput('C');
-    debuggerOutput('C');
-    debuggerOutput('C');
+function testTwo(text){
+    debuggerOutput(text);
+    testOne();
 }
 
 function debuggerOutput(text){
     count++;
     let debuggerLogRef = document.getElementById('debugger_log');
-    debuggerLogRef.innerHTML += " " + text + count;
+    debuggerLogRef.innerHTML = text + count;
 }
