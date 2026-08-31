@@ -59,9 +59,15 @@
 
     // mit Funktionen Elemente im CSS ansprechen und vergeben ist auch möglich
     // Es kann auch z.B. mit einem Button mit onClick eine Funktion im JS ausgeführt werden
-    
+
         function dispNone(id) {
             document.getElementById(id).classList.toggle('d_none');
         }
+
+    // Es gibt eine Vielzahl an Events, die auf diese Weise abgefangen werden können. 
+    // Beachte, dass du nicht alle davon brauchen wirst
+    // ABER es schadet natürlich nicht, schon einmal einen ersten Eindruck zu bekommen. 
+    // Im Folgenden findest du eine Liste der Events:
+    // https://www.w3schools.com/jsref/dom_obj_event.asp
 
         
