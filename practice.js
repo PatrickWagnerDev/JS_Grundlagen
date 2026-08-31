@@ -64,25 +64,28 @@
     // Aufgabe 1
     // Erstelle ein p-tag mit einer selbst gewählten id und Inhalt.
 
-
+        // Done: <p id="practice_p">Practice</p>
 
     // Aufgabe 2
     // Füge mit JavaScript dem p-tag einen title hinzu.
     // Hinweis: das title Attribute ist meist auch als Tooltip zu verstehen, mehr dazu z.B. hier:
     // https://www.w3schools.com/tags/att_global_title.asp
 
-
+        document.getElementById('practice_p').setAttribute('title', "Eine Übung");
 
     // Aufgabe 3
     // Kannst du auch eine css class mit setAttribute hinzufügen?
 
-
+        document.getElementById('practice_p').setAttribute('class', 'test_class');
 
     // Aufgabe 4
     // Worin liegt der Unterschied von classList.add("test_class") und setAttribute("class", "test_class")?
     // Hinweis: Füge hierzu vorher schon einmal eine andere class ein!
 
+        // setAttribute("class", "test_class") für eine neue Klasse hinzu und überschreibt gegebenfalls andere schon vorhandene
+        // classList.add("test_class") fügt, wenn schon vorhanden, die Klasse dem Tag zu und überschreibt ihn nicht wenn schon beinhaltet
 
+        document.getElementById('practice_p').classList.add('test_class_two');
 
     // Aufgabe 5
     // Erstelle im CSS eine Klasse d_none, diese sollte "display:none;" beinhalten.
@@ -90,7 +93,11 @@
     // hinzufügt/entfernt bei einem beliebigen HTML Element.
     // Hinweis: Beliebig heißt hier, dass die id aus dem Parameter der Funktion genommen wird.
 
+        function dispNone() {
+            document.getElementById('practice_p').classList.toggle('d_none');
+        }
 
+        dispNone();
 
         // Wichtiger Tipp:
     // Du siehst, dass manchmal beides geht, sowohl setAttribute() als auch der direkte Zugriff.
