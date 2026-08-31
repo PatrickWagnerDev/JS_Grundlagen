@@ -58,3 +58,42 @@
 
     // Aufgabe 2
     // Füge diesem Button wieder mit Hilfe von JavaScript den Text hinzu "Klick mich"
+
+
+// Aufgaben zu setAttribut
+    // Aufgabe 1
+    // Erstelle ein p-tag mit einer selbst gewählten id und Inhalt.
+
+
+
+    // Aufgabe 2
+    // Füge mit JavaScript dem p-tag einen title hinzu.
+    // Hinweis: das title Attribute ist meist auch als Tooltip zu verstehen, mehr dazu z.B. hier:
+    // https://www.w3schools.com/tags/att_global_title.asp
+
+
+
+    // Aufgabe 3
+    // Kannst du auch eine css class mit setAttribute hinzufügen?
+
+
+
+    // Aufgabe 4
+    // Worin liegt der Unterschied von classList.add("test_class") und setAttribute("class", "test_class")?
+    // Hinweis: Füge hierzu vorher schon einmal eine andere class ein!
+
+
+
+    // Aufgabe 5
+    // Erstelle im CSS eine Klasse d_none, diese sollte "display:none;" beinhalten.
+    // Bau nun eine Funktion, die die Klasse "d_none" mit classList.toggle() 
+    // hinzufügt/entfernt bei einem beliebigen HTML Element.
+    // Hinweis: Beliebig heißt hier, dass die id aus dem Parameter der Funktion genommen wird.
+
+
+
+        // Wichtiger Tipp:
+    // Du siehst, dass manchmal beides geht, sowohl setAttribute() als auch der direkte Zugriff.
+    // Hierbei sollte dein Entwicklergeist geweckt sein. Wenn du nicht sicher bist, 
+    // wie oder ob etwas geht, dann probier es aus!
+    // Genau das macht dich zum Entwickler!!
