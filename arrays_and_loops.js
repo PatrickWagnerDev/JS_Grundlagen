@@ -58,4 +58,16 @@
         // push: https://www.w3schools.com/jsref/jsref_push.asp
         // pop: https://www.w3schools.com/jsref/jsref_pop.asp
 
-        
+// Loops
+    // for-Schleife
+    // mit dieser Schleife können Funktionen so oft wiederholt werden 
+    // bis eine bestimmte Variable (meist index oder i) einen vorbestimmten Wert erreicht hat
+
+        function initForLoop() {
+
+            //   Start          Solange                 Schritt
+            for (let i = 0;     i < fruits.length;       i++) {
+                const element = fruits[i];
+                console.log(element);
+            }
+        }
