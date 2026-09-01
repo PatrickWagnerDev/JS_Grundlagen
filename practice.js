@@ -131,7 +131,9 @@
     // console.log(containsElement(['Anna', 'Ben', 'Clara'], 'Ben')); // true
     // console.log(containsElement(['Anna', 'Ben', 'Clara'], 'Daniel')); // false
 
-
+        function containsElement(array, element) {
+            return array.includes(element);
+        }
 
     // Aufgabe 2: indexOf
     // Implementiere eine Funktion namens findElementIndex(array, element), 
@@ -140,7 +142,9 @@
     // console.log(findElementIndex([10, 20, 30, 40], 30)); // 2
     // console.log(findElementIndex([10, 20, 30, 40], 50)); // -1
 
-
+        function findElementIndex(array, element) {
+            return array.indexOf(element);
+        }
 
     // Aufgabe 3: shift
     // Implementiere eine Funktion namens removeFirstElement(array), 
@@ -149,7 +153,10 @@
     // console.log(removeFirstElement([10, 20, 30, 40])); // [20, 30, 40]
     // console.log(removeFirstElement(['a', 'b', 'c', 'd'])); // ['b', 'c', 'd']
 
-
+        function removeFirstElement(array) {
+            array.shift();
+            return array;
+        }
 
     // Aufgabe 4: unshift
     // Implementiere eine Funktion namens addElementToStart(array, element), 
@@ -158,7 +165,10 @@
     // console.log(addElementToStart([2, 3, 4], 1)); // [1, 2, 3, 4]
     // console.log(addElementToStart(['b', 'c', 'd'], 'a')); // ['a', 'b', 'c', 'd']
 
-
+        function addElementToStart(array, element) {
+            array.unshift(element);
+            return array;
+        }
 
     // Aufgabe 5: slice
     // Implementiere eine Funktion namens getSubArray(array, start, end), die ein neues Array zurückgibt, 
@@ -167,7 +177,10 @@
     // console.log(getSubArray([1, 2, 3, 4, 5], 1, 4)); // [2, 3, 4]
     // console.log(getSubArray(['a', 'b', 'c', 'd', 'e'], 0, 3)); // ['a', 'b', 'c']
 
-
+        function getSubArray(array, start, end) {
+            let newArray;
+            return newArray = array.slice(start, end);
+        }
 
     // Aufgabe 6: join
     // Implementiere eine Funktion namens joinArray(array, separator), die eine Zeichenkette zurückgibt, 
@@ -175,3 +188,7 @@
     // Test:
     // console.log(joinArray(['apple', 'banana', 'cherry'], ', ')); // "apple, banana, cherry"
     // console.log(joinArray([1, 2, 3, 4], ' - ')); // "1 - 2 - 3 - 4"
+
+        function joinArray(array, separator) {
+            return array.join(separator);
+        }
